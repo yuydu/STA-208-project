@@ -4,6 +4,7 @@ STA 208 final project: loan data analysis
 data source: https://www.lendingclub.com/info/download-data.action
 
 Procedures (tentative):
+
 0. Background and purposes
 1. Data Prepocessing: read data, preliminary variable selection, transfer binary variables into dummy variables
 2. Data Discription: compute and plot statistics

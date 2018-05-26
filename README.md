@@ -13,25 +13,20 @@ Procedures (tentative):
 
 3. Data splitting: construct training set(75%) and testing set(25%)
 
-4. Variable selection: Lasso
+4. Variable selection: 
+                
+        Lasso
 
 5. Model selection: 
 
-Logistics regression
-                    
-Clustering
-                    
-KNN classification
-                    
-PCA
-                    
-LDA/QDA
-                    
-Decision Tree
-                    
-Random Forest
-                    
-Bagging/boosting
+       Logistics regression
+       Clustering
+       KNN classification
+       PCA
+       LDA/QDA
+       Decision Tree
+       Random Forest
+       Bagging/boosting
 
 Compute and compare prediction errors, draw ROC curve, PR curve, confusion matrix
 

@@ -1,4 +1,5 @@
 Response Varible: Loan Status; Current status of the loan
+                  
                   dummy: 1, good status: Fully Paid, Current
                          0, bad status: In Grace Period, Late(16-30 days), Late(31-120 days), Default, Charged Off
 
@@ -10,41 +11,45 @@ Predictor Variables:
 ['funded_amnt_inv']: the total amount commited by investors for that loan at that point in time;
 
 ['term']: The number of payments on the loan. 36months/60months;
-dummy
+   
+    dummy
 
 ['int_rate']: interest rate on the loan;
 
 ['installment']: the monthly payment owed by the borrower if the loan is ordinates;
 
 *['grade']: LC assigned loan grade;
-delete
+      
+    delete
 
 *['sub_grade']: LC assigned loan subgrade;
-delete
+
+    delete
 
 *['home_ownership']: The home ownership status provided by the borrower during registration or obtained from the credit report. (RENT, OWN, MORTGAGE, OTHER)
-dummy
+  
+    dummy
 
 *['annual_inc']: The self-reported annual income provided by the borrower during registration.
 
 ['verification_status']: Indicates if income was verified by LC, not verified, or if the income source was verified
-dummy
+
+    dummy
 
 split training and test ['issue_d']: issue date
 
 ['purpose']: A category provided by the borrower for the loan request.--clustering?
-dummy -- estate: car, home-improvement, house, moving
-         vacation
-         money: credit_card, debt_consolidation, major_purchase
-         renewable_enery
-         small_business
-         medical
-         other
+  
+    dummy estate: car, home-improvement, house, moving, major_purchase, renewable_enery
+          money: credit_card, debt_consolidation, small_business
+          medical
+          vacation, other
 
 ??['zip_code']: The first 3 numbers of the zip code provided by the borrower in the loan application.
 
 ['addr_state']: The state provided by the borrower in the loan application;
-dummy -- inside/outside state
+
+    dummy -- inside/outside state
 
 *['delinq_2yrs']: The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years;
 
@@ -57,8 +62,9 @@ dummy -- inside/outside state
 ['total_acc']: The total number of credit lines currently in the borrower's credit file
 
 (potentional y)['initial_list_status']: The initial listing status of the loan. Possible values are – W, F
-dummy: 1, Whole
-       0, Fraction
+  
+    dummy: 1, Whole
+           0, Fraction
 
 ['out_prncp']: Remaining outstanding principal for total amount funded; 剩余未偿还本金
 
@@ -83,8 +89,9 @@ dummy: 1, Whole
 ['last_credit_pull_d']: The most recent month LC pulled credit for this loan;
 
 ['application_type']: Indicates whether the loan is an individual application or a joint application with two co-borrowers;
-dummy: 1, individual
-       0, joint
+
+     dummy: 1, individual
+            0, joint
 
 ['acc_now_delinq']: The number of accounts on which the borrower is now delinquent.
 

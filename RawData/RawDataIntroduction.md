@@ -1,4 +1,4 @@
-Response Varible: Loan Status;
+Response Varible: Loan Status; Current status of the loan
 Predictor Variables: 
 ['loan_amnt']: the list amount of the loan applied by the borrowers;
 
@@ -10,55 +10,53 @@ Predictor Variables:
 
 ['int_rate']: interest rate on the loan;
 
-['installment']: the monthly payment owed by the borrower if the loan is orinates;
+['installment']: the monthly payment owed by the borrower if the loan is ordinates;
 
-['grade']: LC assigned loan grade;
+*['grade']: LC assigned loan grade;
 
-['sub_grade']:
+*['sub_grade']: LC assigned loan subgrade;
 
-['home_ownership']:
+*['home_ownership']: The home ownership status provided by the borrower during registration or obtained from the credit report. (RENT, OWN, MORTGAGE, OTHER)
 
-['annual_inc']:
+*['annual_inc']: The self-reported annual income provided by the borrower during registration.
 
-['verification_status']:
+['verification_status']: Indicates if income was verified by LC, not verified, or if the income source was verified
 
-['issue_d']:
+['issue_d']: issue date
 
-['loan_status']:
+['purpose']: A category provided by the borrower for the loan request.
 
-['purpose']:
+??['zip_code']: The first 3 numbers of the zip code provided by the borrower in the loan application.
 
-['zip_code']:
+['addr_state']: The state provided by the borrower in the loan application;
 
-['addr_state']:
+*['delinq_2yrs']: The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years;
 
-['delinq_2yrs']:
+['earliest_cr_line']: The month the borrower's earliest reported credit line was opened;
 
-['earliest_cr_line']:
+['open_acc']: The number of open credit lines in the borrower's credit file
 
-['open_acc']:
+['revol_bal']: Total credit revolving balance；
 
-['revol_bal']:
+['total_acc']: The total number of credit lines currently in the borrower's credit file
 
-['total_acc']:
+(potentional y)['initial_list_status']: The initial listing status of the loan. Possible values are – W, F
 
-['initial_list_status']:
+['out_prncp']: Remaining outstanding principal for total amount funded; 剩余未偿还本金
 
-['out_prncp']:
+['out_prncp_inv']: Remaining outstanding principal for portion of total amount funded by investors；
 
-['out_prncp_inv']:
+(?)['total_pymnt']: Payments received to date for total amount funded；
 
-['total_pymnt']:
+['total_pymnt_inv']: Payments received to date for portion of total amount funded by investors；
 
-['total_pymnt_inv']:
+['total_rec_prncp']: Principal received to date;
 
-['total_rec_prncp']:
+['total_rec_int']: Interest received to date;
 
-['total_rec_int']:
+['total_rec_late_fee']: 
 
-['total_rec_late_fee']:
-
-['recoveries']:
+['recoveries']: post charge off gross recovery;
 
 ['collection_recovery_fee']:
 

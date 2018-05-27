@@ -1,18 +1,18 @@
 Response Varible: Loan Status;
 Predictor Variables: 
-['loan_amnt']:
+['loan_amnt']: the list amount of the loan applied by the borrowers;
 
-['funded_amnt']:
+['funded_amnt']: the total amount commited to that loan at that point in time;
 
-['funded_amnt_inv']:
+['funded_amnt_inv']: the total amount commited by investors for that loan at that point in time;
 
-['term']:
+['term']: The number of payments on the loan. 36months/60months;
 
-['int_rate']:
+['int_rate']: interest rate on the loan;
 
-['installment']:
+['installment']: the monthly payment owed by the borrower if the loan is orinates;
 
-['grade']:
+['grade']: LC assigned loan grade;
 
 ['sub_grade']:
 

@@ -54,77 +54,77 @@ Predictor Variables:
 
 ['total_rec_int']: Interest received to date;
 
-['total_rec_late_fee']: 
+['total_rec_late_fee']: Late fees received to date;
 
 ['recoveries']: post charge off gross recovery;
 
-['collection_recovery_fee']:
+['collection_recovery_fee']: post charge off collection fee;
 
-['last_pymnt_amnt']:
+['last_pymnt_amnt']: Last total payment amount received;
 
-['last_credit_pull_d']:
+['last_credit_pull_d']: The most recent month LC pulled credit for this loan;
 
-['application_type']:
+['application_type']: Indicates whether the loan is an individual application or a joint application with two co-borrowers;
 
-['acc_now_delinq']:
+['acc_now_delinq']: The number of accounts on which the borrower is now delinquent.
 
-['tot_coll_amt']:
+['tot_coll_amt']: Total collection amounts ever owed;
 
-['tot_cur_bal']:
+['tot_cur_bal']: Total current balance of all accounts;
 
-['total_rev_hi_lim']:
+['total_rev_hi_lim']: Total revolving high credit/credit limit;
 
-['acc_open_past_24mths']:
+['acc_open_past_24mths']: Number of trades opened in past 24 months.;
 
-['avg_cur_bal']:
+['avg_cur_bal']: Average current balance of all accounts;
 
-['chargeoff_within_12_mths']:
+['chargeoff_within_12_mths']: Number of charge-offs within 12 months;
 
-['delinq_amnt']:
+['delinq_amnt']: The past-due amount owed for the accounts on which the borrower is now delinquent;
 
-['mo_sin_old_rev_tl_op']:
+['mo_sin_old_rev_tl_op']: Months since oldest revolving account opened;
 
-['mo_sin_rcnt_rev_tl_op']:
+['mo_sin_rcnt_rev_tl_op']: Months since most recent revolving account opened;
 
-['mo_sin_rcnt_tl']:
+['mo_sin_rcnt_tl']: Months since most recent account opened;
 
-['mort_acc']:
+['mort_acc']: Number of mortgage accounts.
 
-['num_accts_ever_120_pd']:
+['num_accts_ever_120_pd']: Number of accounts ever 120 or more days past due;
 
-['num_actv_bc_tl']:
+['num_actv_bc_tl']: Number of currently active bankcard accounts;
 
-['num_actv_rev_tl']:
+['num_actv_rev_tl']: Number of currently active revolving trades;
 
-['num_bc_sats']:
+['num_bc_sats']: Number of satisfactory bankcard accounts;
 
-['num_bc_tl']:
+['num_bc_tl']: Number of bankcard accounts;
 
-['num_il_tl']:
+['num_il_tl']: Number of installment accounts;
 
-['num_op_rev_tl']:
+['num_op_rev_tl']: Number of open revolving accounts;
 
-['num_rev_accts']:
+['num_rev_accts']: Number of revolving accounts;
 
-['num_rev_tl_bal_gt_0']:
+['num_rev_tl_bal_gt_0']: Number of revolving trades with balance >0;
 
-['num_sats']:
+['num_sats']: Number of satisfactory accounts;
 
-['num_tl_90g_dpd_24m']:
+['num_tl_90g_dpd_24m']: Number of accounts opened in past 24 months;
 
-['num_tl_op_past_12m']:
+['num_tl_op_past_12m']: Number of accounts opened in past 12 months;
 
-['pct_tl_nvr_dlq']:
+['pct_tl_nvr_dlq']: Percent of trades never delinquent;
 
-['pub_rec_bankruptcies']:
+['pub_rec_bankruptcies']: Number of public record bankruptcies;
 
-['tax_liens']:
+['tax_liens']: Number of tax liens;
 
-['tot_hi_cred_lim']:
+['tot_hi_cred_lim']: Total high credit/credit limit;
 
-['total_bal_ex_mort']:
+['total_bal_ex_mort']: Total credit balance excluding mortgage;
 
-['total_bc_limit']:
+['total_bc_limit']: Total bankcard high credit/credit limit;
 
-['total_il_high_credit_limit]:
+['total_il_high_credit_limit]: Total installment high credit/credit limit.
 

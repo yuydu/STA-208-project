@@ -11,18 +11,19 @@ Procedures (tentative):
 
 2. Data Discription: compute and plot statistics
 
-3. Data splitting: construct training set(75%) and testing set(25%)
+3. Data splitting: construct training set(75%) and testing set(25%), cross validation?
 
 4. Variable selection: 
                 
         Lasso
+        PCA
 
 5. Model selection: 
 
        Logistics regression
        Clustering
        KNN classification
-       PCA
+       PCA regression
        LDA/QDA
        Decision Tree
        Random Forest

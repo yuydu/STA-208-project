@@ -5,20 +5,20 @@ data source: https://www.lendingclub.com/info/download-data.action
 
 Procedures (tentative):
 
-0. Background and purposes
+0. Background and purposes(yuyang)
 
-1. Data Prepocessing: read data, preliminary variable selection, transfer binary variables into dummy variables
+1. Data Preprocessing: read data, preliminary variable selection, transfer binary variables into dummy variables(yuyang)
 
-2. Data Discription: compute and plot statistics
+2. Data Discription: compute and plot statistics(dandi, bianbian)
 
 3. Data splitting: construct training set(75%) and testing set(25%), cross validation?
 
-4. Variable selection: 
+4. Variable selection:
                 
-        Lasso
+        *Lasso group
         PCA
 
-5. Model selection: 
+5. Model selection:
 
        Logistics regression
        Clustering

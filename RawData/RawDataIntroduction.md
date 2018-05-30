@@ -80,7 +80,7 @@ split training and test ['issue_d']: issue date
 
 ['total_rec_late_fee']: Late fees received to date;
 
-['recoveries']: post charge off gross recovery;总回收费用
+['recoveries']: post charge off gross recovery  后冲销总回收费用
 
 ['collection_recovery_fee']: post charge off collection fee;
 

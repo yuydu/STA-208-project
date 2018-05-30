@@ -93,7 +93,7 @@ split training and test ['issue_d']: issue date
      dummy: 1, individual
             0, joint
 
-['acc_now_delinq']: The number of accounts on which the borrower is now delinquent.
+['acc_now_delinq']: The number of accounts on which the borrower is now delinquent. 借款人现在拖欠的账户数目。
 
 ['tot_coll_amt']: Total collection amounts ever owed;
 

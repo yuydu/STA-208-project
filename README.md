@@ -40,7 +40,7 @@ We use Principal Component Analysis(PCA) method to obtain a clearer interpretati
 ## 3. Model Building and Selection
 
 ### 3.1 Support Vector Machines
-In this part SVM is chosed to do calssification of loan status. Results show that test error is 0.0338 and accuracyscore is 0.9661 , which means our model fits the data well. Moreover, ROC area is 0.87, indicating high prediction accuracy and PR curve also shows high precision and high recall value.(You are able to see the analysis procedure and results at [SVM](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb))
+In this part SVM is chosed to do calssification of loan status. Results show that test error is 0.0338 and accuracy score is 0.9661 , which means our model fits the data well. Moreover, ROC area is 0.87, indicating high prediction accuracy and PR curve also shows high precision and high recall value.(You are able to see the analysis procedure and results at [SVM](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb))
 
 
 ### 3.2 Logistic Regression  
@@ -62,5 +62,5 @@ We use above models to do prediction in reality. However, results are not so goo
 [Logistic](https://github.com/yuydu/STA-208-project/blob/master/Logistic%20Regression%20and%20Prediction%20in%20Reality.ipynb)
 
 ### 4.3 Improvement
-As far as we concerned, if we want to predict status about recent loans, we should eliminate those variables containing mobile information, say, depend much on time for example. This is what we can make improvements in the future. Our modelhere is more suitable to do prediction upon more previous loans. However, we still have good reason to believe that this is a very interesting case study since we not only get deep understanding of different classification methods but also apply them into reality and get interesting results.
+As far as we concerned, if we want to predict status about recent loans, we should eliminate those variables containing mobile information, say, depend much on time for example. This is what we can make improvements in the future. Our model here is more suitable to do prediction upon more previous loans. However, we still have good reason to believe that this is a very interesting case study since we not only get deep understanding of different classification methods but also apply them into reality and get interesting results.
 

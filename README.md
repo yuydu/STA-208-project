@@ -1,31 +1,46 @@
-# STA-208-project
-STA 208 final project: Application of Classification Methods in Analyzing and Predicting Loan Status
+# STA 208 Project
+
+## Application of Classification Methods in Analyzing and Predicting Loan Status
 
 data source: https://www.lendingclub.com/info/download-data.action
 
 Procedures:
 
-### 1. Introduction
+## 1. Introduction
 
-### 2. Variable Selection and Data Discription
+## 2. Variable Selection and Data Discription
 
-#### 2.1 Variable Selection Using Group Lasso
+> ### 2.1 Variable Selection Using Group Lasso
 
-#### 2.2 Numerical Variables Description
-In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Numerical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.1)
+> ### 2.2 Numerical Variables Description
 
-#### 2.3 Categorical Variables Description
+> ### 2.3 Categorical Variables Description
 
-#### 2.4 Principal Component Analysis
+> ### 2.4 Principal Component Analysis
+We use Principal Component Analysis(PCA) method to obtain a clearer interpretation of the differences between borrowers that lead to different loan status. The number of principal components is decided as 10, and a Varimax Rotation is implemented to recogonize the most powerful componetns.
 
-### 3. Model Building and Selection
+Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
 
-#### 3.1 Support Vector Machines
+## 3. Model Building and Selection
 
-#### 3.2 Logistic Regression
+> ### 3.1 Support Vector Machines
 
-#### 3.3 KNN Classification
+> ### 3.2 Logistic Regression
 
-#### 3.4 Random Forest Classification
+> ### 3.3 KNN Classification
+K-nearest-neighbor Classifier is also applied to predict the loan status. The tuning parameter \textbf{k} (number of neighbors) is determined by computing the misclassification rate on the testing set by fitting the classifier on the training set. The test error picks k = 8. And the model predicts about 95% of the data right.
 
-### 4. Conclusion
+Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
+
+> ### 3.4 Random Forest Classification
+We implement the random forest classifier with the number of trees prespecified as 1000, and compute the misclassification rate of prediction on the testing set. The accuracy rate is over 97%.
+
+Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
+
+## 4. Conclusion
+> ### 4.1 Model Decision
+The Random Forest Classifier has the highest accuracy among the four fitted models. Thus we use 
+
+> ### 4.2 Future Prediction
+
+[PredictionUsingRandomForest.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PredictionUsingRandomForest.ipynb)

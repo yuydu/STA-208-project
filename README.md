@@ -1,36 +1,30 @@
 # STA-208-project
-STA 208 final project: loan data analysis
+STA 208 final project: Application of Classification Methods in Analyzing and Predicting Loan Status
 
 data source: https://www.lendingclub.com/info/download-data.action
 
-Procedures (tentative):
+Procedures:
 
-0. Background and purposes(yuyang)
+## 1. Introduction
 
-1. Data Preprocessing: read data, preliminary variable selection, transfer binary variables into dummy variables(yuyang)
+## 2. Variable Selection and Data Discription
 
-2. Data Discription: compute and plot statistics(dandi, bianbian)
+### 2.1 Variable Selection Using Group Lasso
 
-3. Data splitting: construct training set(75%) and testing set(25%), cross validation?
+### 2.2 Numerical Variables Description
 
-4. Variable selection:
-                
-        *Lasso group
-        PCA
+### 2.3 Categorical Variables Description
 
-5. Model selection:
+### 2.4 Principal Component Analysis
 
-       Logistics regression
-       Clustering
-       KNN classification
-       PCA regression
-       LDA/QDA
-       Decision Tree
-       Random Forest
-       Bagging/boosting
+## 3. Model Building and Selection
 
-Compute and compare prediction errors, draw ROC curve, PR curve, confusion matrix
+### 3.1 Support Vector Machines
 
-6. Predict new X variables
+### 3.2 Logistic Regression
 
-7. Conclusion
+### 3.3 KNN Classification
+
+### 3.4 Random Forest Classification
+
+## 4. Conclusion

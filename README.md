@@ -10,7 +10,8 @@ The files are supposed to read in this order:
 1. [Variable Selection and Data Description.ipynb](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb)  
 2. [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)  
 3. [SVM.ipynb](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb)  
-4. [Logistic Regression and Prediction in Reality.ipynb](https://github.com/yuydu/STA-208-project/blob/master/Logistic%20Regression%20and%20Prediction%20in%20Reality.ipynb)
+4. [Logistic Regression and Prediction in Reality.ipynb](https://github.com/yuydu/STA-208-project/blob/master/Logistic%20Regression%20and%20Prediction%20in%20Reality.ipynb)  
+5. [PredictionUsingRandomForest.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PredictionUsingRandomForest.ipynb)
 
 
 ## 1. Introduction

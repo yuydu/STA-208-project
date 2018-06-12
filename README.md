@@ -26,6 +26,8 @@ Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/
 ## 3. Model Building and Selection
 
 ### 3.1 Support Vector Machines
+In this part SVM is chosed to do calssification od loan status. Results show that test error is 0.0338 and accuracyscore is 0.9661 , which means our model fits the data well. Moreover, ROC area is 0.87, indicating high prediction accuracy and PR curve also shows high precision and high recall value.(You are able to see the analysis procedure and results at [SVM](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb))
+
 
 ### 3.2 Logistic Regression
 

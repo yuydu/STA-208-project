@@ -43,7 +43,7 @@ Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/
 
 ## 4. Conclusion
 ### 4.1 Model Decision
-The Random Forest Classifier has the highest accuracy among the four fitted models. Thus we use 
+According to prediction accuracy on testing set of four fitted models, Random Forest Classifier has highest accuracy, which predicts 97.1% of the data to be in loan status. Then we want to apply this model into future prediction in reality. 
 
 ### 4.2 Future Prediction
 

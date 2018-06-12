@@ -4,16 +4,26 @@
 
 data source: https://www.lendingclub.com/info/download-data.action
 
-Procedures:
+You are able to reach out all files in GitHub: https://github.com/yuydu/STA-208-project
+
+The files are supposed to read in this order:   
+1. [Variable Selection and Data Description.ipynb](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb)  
+2. [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)  
+3. [SVM.ipynb](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb)  
+4. [Logistic Regression and Prediction in Reality.ipynb](https://github.com/yuydu/STA-208-project/blob/master/Logistic%20Regression%20and%20Prediction%20in%20Reality.ipynb)
+
 
 ## 1. Introduction
+
+First we download loan data in 2016 from LendingClub. After preliminary data cleansing, we keep 65 variables.
 
 ## 2. Variable Selection and Data Discription
 
 ### 2.1 Variable Selection Using Group Lasso
+Since lot of similar information are included among the 64 predictor variables, and the categorical variables would be added in as groups, we apply Group Lasso in this case and you can find the steps at [Variable Selection and Data Description.ipynb  2.3 Variable Selection (Group Lasso)](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb)
 
 ### 2.2 Numerical Variables Description
-In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Numerical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.1)
+In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Variable Selection and Data Description.ipynb  2.4.1 Numerical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.1)
 
 ### 2.3 Categorical Variables Description
 For  selected  dummy  variables,  counter  barplot  for  pairs  of  each  categorical  variable  and  loan  status  weredraw sequentially. (You are able to see the analysis procedure and results at [Categorical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.2)

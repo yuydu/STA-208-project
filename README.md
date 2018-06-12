@@ -43,7 +43,8 @@ We use Principal Component Analysis(PCA) method to obtain a clearer interpretati
 In this part SVM is chosed to do calssification od loan status. Results show that test error is 0.0338 and accuracyscore is 0.9661 , which means our model fits the data well. Moreover, ROC area is 0.87, indicating high prediction accuracy and PR curve also shows high precision and high recall value.(You are able to see the analysis procedure and results at [SVM](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb))
 
 
-### 3.2 Logistic Regression
+### 3.2 Logistic Regression  
+Logistic Regression is applied here as it is a classical model for binary response variable. You can see the procedure and conclusions at [Logistic Regression and Prediction in Reality.ipynb](https://github.com/yuydu/STA-208-project/blob/master/Logistic%20Regression%20and%20Prediction%20in%20Reality.ipynb).
 
 ### 3.3 KNN Classification
 K-nearest-neighbor Classifier is also applied to predict the loan status. The tuning parameter k (number of neighbors) is determined by computing the misclassification rate on the testing set by fitting the classifier on the training set. The test error picks k = 8. And the model predicts about 95% of the data right. Details in [KNN](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)

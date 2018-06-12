@@ -2,6 +2,11 @@
 
 ## Application of Classification Methods in Analyzing and Predicting Loan Status
 
+Jiayi Bian  915494879  
+Yuyang Du  915528062  
+Dandi Peng  915553480
+
+
 data source: https://www.lendingclub.com/info/download-data.action
 
 You are able to reach out all files in GitHub: https://github.com/yuydu/STA-208-project

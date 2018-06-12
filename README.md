@@ -47,5 +47,6 @@ According to prediction accuracy on testing set of four fitted models, __Random 
 
 ### 4.2 Future Prediction
 We use above models to do prediction in reality. However, results are not so good as expected. Random Forest Classifier only predicts about 30% as in good status abd SVM predict 67%. Here logistic preforms best as there are about 75% good-status loans. We also expkore why does it happen, whose result can be seen at  
-[PredictionUsingRandomForest.ipynb;](https://github.com/yuydu/STA-208-project/blob/master/PredictionUsingRandomForest.ipynb)   [Prediction in Reality](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb)
+[PredictionUsingRandomForest.ipynb;](https://github.com/yuydu/STA-208-project/blob/master/PredictionUsingRandomForest.ipynb)   [Prediction in Reality](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb)  
+[Logistic](https://github.com/yuydu/STA-208-project/blob/master/Logistic%20Regression%20and%20Prediction%20in%20Reality.ipynb)
 

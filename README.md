@@ -12,7 +12,7 @@ Procedures:
 #### 2.1 Variable Selection Using Group Lasso
 
 #### 2.2 Numerical Variables Description
-In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Numerical](https://resources.lendingclub.com/LCDataDictionary.xlsx),part 2.4.1)
+In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Numerical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.1)
 
 #### 2.3 Categorical Variables Description
 

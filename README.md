@@ -16,7 +16,7 @@ Procedures:
 In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Numerical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.1)
 
 ### 2.3 Categorical Variables Description
-For  selected  dummy  variables,  counter  barplot  for  pairs  of  each  categorical  variable  and  loan  status  weredraw sequentially. (You are able to see the analysis procedure and results at [Categorical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.1)
+For  selected  dummy  variables,  counter  barplot  for  pairs  of  each  categorical  variable  and  loan  status  weredraw sequentially. (You are able to see the analysis procedure and results at [Categorical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.2)
 
 ### 2.4 Principal Component Analysis
 We use Principal Component Analysis(PCA) method to obtain a clearer interpretation of the differences between borrowers that lead to different loan status. The number of principal components is decided as 10, and a Varimax Rotation is implemented to recogonize the most powerful componetns.

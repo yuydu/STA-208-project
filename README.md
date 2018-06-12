@@ -29,13 +29,13 @@ First we download loan data in 2016 from LendingClub. After preliminary data cle
 Since lot of similar information are included among the 64 predictor variables, and the categorical variables would be added in as groups, we apply Group Lasso in this case and you can find the steps at [Variable Selection and Data Description.ipynb  2.3 Variable Selection (Group Lasso)](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb)
 
 ### 2.2 Numerical Variables Description
-In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Variable Selection and Data Description.ipynb  2.4.1 Numerical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.1)
+In this part we explore relationship among selected numerical predictor variables(computing correlation matrix and drawing heatmap). Relationship between loan status and some predictor variables we are interested in is also analyzed.(You are able to see the analysis procedure and results at [Variable Selection and Data Description.ipynb  2.4.1 Numerical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb), part 2.4.1)
 
 ### 2.3 Categorical Variables Description
-For  selected  dummy  variables,  counter  barplot  for  pairs  of  each  categorical  variable  and  loan  status  weredraw sequentially. (You are able to see the analysis procedure and results at [Categorical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb),part 2.4.2)
+For  selected  dummy  variables,  counter  barplot  for  pairs  of  each  categorical  variable  and  loan  status  weredraw sequentially. (You are able to see the analysis procedure and results at [Categorical](https://github.com/yuydu/STA-208-project/blob/master/Variable%20Selection%20and%20Data%20description.ipynb), part 2.4.2)
 
 ### 2.4 Principal Component Analysis
-We use Principal Component Analysis(PCA) method to obtain a clearer interpretation of the differences between borrowers that lead to different loan status. The number of principal components is decided as 10, and a Varimax Rotation is implemented to recogonize the most powerful components. Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
+We use Principal Component Analysis(PCA) method to obtain a clearer interpretation of the differences between borrowers that lead to different loan status. The number of principal components is decided as 10, and a Varimax Rotation is implemented to recogonize the most powerful components. Details in [PCA](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
 
 ## 3. Model Building and Selection
 
@@ -46,10 +46,10 @@ In this part SVM is chosed to do calssification od loan status. Results show tha
 ### 3.2 Logistic Regression
 
 ### 3.3 KNN Classification
-K-nearest-neighbor Classifier is also applied to predict the loan status. The tuning parameter k (number of neighbors) is determined by computing the misclassification rate on the testing set by fitting the classifier on the training set. The test error picks k = 8. And the model predicts about 95% of the data right. Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
+K-nearest-neighbor Classifier is also applied to predict the loan status. The tuning parameter k (number of neighbors) is determined by computing the misclassification rate on the testing set by fitting the classifier on the training set. The test error picks k = 8. And the model predicts about 95% of the data right. Details in [KNN](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
 
 ### 3.4 Random Forest Classification
-We implement the random forest classifier with the number of trees prespecified as 1000, and compute the misclassification rate of prediction on the testing set. The accuracy rate is over 97%. Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
+We implement the random forest classifier with the number of trees prespecified as 1000, and compute the misclassification rate of prediction on the testing set. The accuracy rate is over 97%. Details in [random Forest](https://github.com/yuydu/STA-208-project/blob/master/PCA%2C%20KNN%20and%20Random%20Forest%20Clsifier.ipynb)
 
 ## 4. Conclusion
 ### 4.1 Model Decision

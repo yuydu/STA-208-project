@@ -43,10 +43,10 @@ Details in [PCA, KNN and Random Forest Clsifier.ipynb](https://github.com/yuydu/
 
 ## 4. Conclusion
 ### 4.1 Model Decision
-According to prediction accuracy on testing set of four fitted models, __Random Forest Classifier__ has highest accuracy, which predicts 97.1% of the data to be in loan status. Then we want to apply this model into future prediction in reality. 
+According to prediction accuracy on testing set of four fitted models, __Random Forest Classifier__ has highest accuracy, which predicts 97.1% of the data to be in good loan status. Then we apply this model to future prediction in reality. 
 
 ### 4.2 Future Prediction
-We use above models to do prediction in reality. However, results are not so good as expected. Random Forest Classifier only predicts about 30% as in good status abd SVM predict 67%. Here logistic preforms best as there are about 75% good-status loans. We also expkore why does it happen, whose result can be seen at  
+We use above models to do prediction in reality. However, results are not so good as expected. __Random Forest Classifier__ only predicts about 30% as in good status and __SVM__ predicts 67%. Here __logistic__ preforms best as there are about 75% good-status loans. We also explore why does it happen, whose result can be seen at  
 [PredictionUsingRandomForest.ipynb;](https://github.com/yuydu/STA-208-project/blob/master/PredictionUsingRandomForest.ipynb)   [Prediction in Reality;](https://github.com/yuydu/STA-208-project/blob/master/SVM.ipynb)  
 [Logistic](https://github.com/yuydu/STA-208-project/blob/master/Logistic%20Regression%20and%20Prediction%20in%20Reality.ipynb)
 
